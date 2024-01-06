@@ -1,0 +1,125 @@
+#pricing {
+    background: linear-gradient(
+      180deg,
+      #f8f8f8 -45.04%,
+      rgba(248, 248, 248, 0) 88.56%
+    );
+  }
+  #pricing .plan-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  #pricing .plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .plan-left-side {
+    width: 30%;
+    height: auto;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+  }
+  .plan-left-side .plan-down-title {
+    padding-top: 100px;
+  }
+  .plan-middle-side {
+    width: 30%;
+    height: auto;
+    border: 2px solid #dddddd;
+  }
+  .plan-middle-side .plan-down-title {
+    padding-top: 70px;
+  }
+  .plan-right-side {
+    width: 30%;
+    height: auto;
+    border: 2px solid #f53838;
+  }
+  .plan-side-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .plan-list-iems .plan-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f5665;
+    text-align: center;
+  }
+  .plan-list-iems .plan-item::before {
+    content: "\2713";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    color: #2fab73;
+    margin-right: 10px;
+  }
+  .plan-side {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+  .plan-img {
+    margin-top: 20px;
+  }
+  .plan-down-title {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .select-btn {
+    border: 2px solid #f53838;
+    color: #f53838;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+  .active {
+    background-color: #f53838;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 8px 20px 20px #f5383859;
+  }
+  .global {
+    margin-top: 150px;
+  }
+  .global .global-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b132a;
+    margin-bottom: 20px;
+  }
+  .global .global-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .global .global-description .global-description-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .global-img {
+    margin: 50px 0 10px;
+  }
+  .sponsor-img {
+    margin: 10px 0 20px 0;
+  }

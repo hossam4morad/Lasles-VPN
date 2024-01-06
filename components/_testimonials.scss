@@ -1,0 +1,221 @@
+#testimonials .customers-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0b132a;
+    margin-bottom: 20px;
+  }
+  #testimonials .customers-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4f5665;
+    margin-bottom: 40px;
+  }
+  .left-card {
+    width: 30%;
+    height: auto;
+    border: 2px solid #f53838;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    box-shadow: 8px 50px 18px rgba(13, 16, 37, 6%);
+  }
+  .customer-left-pic {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+  }
+  .big-star {
+    color: #fea250;
+  }
+  .customers-opinion {
+    position: relative;
+    padding-top: 20px;
+  }
+  .customer-review {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .middle-card {
+    width: 30%;
+    height: auto;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+  }
+  .customer-middle-pic {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+  }
+  .right-card {
+    width: 30%;
+    height: auto;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+  }
+  .customer-right-pic {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+  }
+  .customers-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .customer-name {
+    color: #0b132a;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .customer-location {
+    display: inline-block;
+    margin-top: 0.1rem;
+    color: #4f5665;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .customer-comment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0b132a;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .arrow {
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .arrow .arrow-tall-points {
+    width: 45px;
+    height: 15px;
+    background-color: #f53838;
+    display: inline-block;
+    border-radius: 50px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+  }
+  .arrow .arrow-short-points:nth-of-type(2) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #dde0e4;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+  }
+  .arrow .arrow-short-points:nth-of-type(3) {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #dde0e4;
+    display: inline-block;
+    position: absolute;
+    left: 90px;
+    top: 40px;
+  }
+  .arrow .arrow-short-points:last-of-type {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #dde0e4;
+    display: inline-block;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+  }
+  .next-arrow {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f53838;
+    position: absolute;
+    top: 20px;
+    right: 150px;
+    font-size: 20px;
+  }
+  .previous-arrow {
+    color: #f53838;
+    border: 2px solid #f53838;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 230px;
+  }
+  .subscribe {
+    width: 85%;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    margin-left: 50px;
+    position: relative;
+    top: 120px;
+    background-color: #ffffff;
+    box-shadow: 8px -20px 18px rgba(13, 16, 37, 6%);
+    margin-left: 100px;
+  }
+  .subscribe-title {
+    color: #0b132a;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+  .subscribe-description {
+    color: #4f5665;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .subscribe-btn {
+    border: 2px solid #f53838;
+    color: #ffffff;
+    background-color: #f53838;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    box-shadow: 8px 20px 20px #f5383859;
+  }
+  .subscribe-content {
+    float: left;
+    margin-left: 20px;
+  }
+  .subscribe-btn {
+    float: right;
+    margin: 40px 30px 20px 0;
+  }
+  .clearfix {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+  }

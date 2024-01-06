@@ -1,0 +1,96 @@
+#help {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    background: rgba(248, 248, 248, 1);
+  }
+  .logo-pic {
+    padding-top: 130px;
+  }
+  .footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+    margin-bottom: 20px;
+  }
+  .footer-description-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .footer-first-side {
+    margin-left: 70px;
+  }
+  .footer-first-side i {
+    color: #f53855;
+    background-color: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 7px;
+  }
+  .copyrighter {
+    color: #afb5c0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .second-side-title {
+    color: #0b132a;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+  }
+  .second-side-title .footer-second-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+  .third-side-title {
+    color: #0b132a;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+  }
+  .third-side-title .footer-third-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+  .fourth-side-title {
+    color: #0b132a;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+  }
+  .fourth-side-title .footer-fourth-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+  .footer-second-side,
+  .footer-third-side,
+  .footer-fourth-side {
+    width: 20%;
+  }
+  .footer-first-side {
+    width: 35%;
+    text-align: left;
+    padding-left: 30px;
+  }
